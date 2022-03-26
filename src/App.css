@@ -6,3 +6,30 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.etc {
+  visibility: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.name {
+  cursor: pointer;
+}
+
+.name:hover .etc {
+  visibility: visible;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+div {
+  border: 1px solid green;
+  background-color: black;
+  width: 80vw;
+  margin: 1% auto;
+}
